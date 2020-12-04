@@ -547,6 +547,31 @@ button:focus,
     line-height : 1;
     }
 
+
+/* --------------------------
+ * Problems Section
+ *---------------------------*/
+
+.problems-section .section-content{
+    display: flex;
+    justify-content: center;
+}
+
+.problems-section .section-content img{
+    width: 96%;
+    height: auto;
+}
+
+.problems-section .section-content-links{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.problems-section .section-content-links a{
+    font-size: 0.8em;
+}
+
 /* --------------------------
  * Pricing Table
  *---------------------------*/
