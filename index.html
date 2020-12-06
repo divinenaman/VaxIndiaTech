@@ -19,6 +19,9 @@
     <!-- Style CSS -->
     <link href="css/style.css" rel="stylesheet">
 
+    <!-- jumbotron animation css -->
+    <link rel="stylesheet" href="css/mycss.css">
+    <link rel="stylesheet" href="css/if_u_want.css">
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar">
 <div id="main-wrapper">
@@ -39,8 +42,9 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand page-scroll" href="#page-top"><img src="img/logo.png" alt=""></a>
+                    <a class="navbar-brand page-scroll" href="#page-top"><img src="./img/Logo.jpeg" style="width:230px;" alt=""></a>
                 </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
@@ -48,7 +52,8 @@
                     <ul class="nav navbar-nav">
                         <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                         <li class="hidden"><a href="#page-top"></a></li>
-                        <li><a class="page-scroll" href="#section-intro">Abstract</a></li>                 
+                        <li><a class="page-scroll" href="#section-intro">Abstract</a></li>
+                        <li><a class="page-scroll" href="#section-problems">Problems</a></li>                 
                         <li><a class="page-scroll" href="#section-pricing">ANALYTICAL MODELS</a></li>
                         <li><a class="page-scroll" href="#section-speaker">Speaker</a></li>
                         
@@ -63,12 +68,11 @@
 
     </header>
 
-    <div class="jumbotron text-center">
-        <div class="content">
-            <div class="event-date">DECEMBER 20–25, 2017, SHANGHAI</div>
-            <h1>Title of Your Conference or Event</h1>
-            <p class="lead">It's a tag line, where you can write a key point of your idea. It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-            <button type="button" class="btn btn-default btn-lg">STAY IN THE LOOP</button>
+    <div class="jumbotron text-center back" style="background-image: url(./img/image.png);">
+        <div class="content" style="position: absolute;top:430px;">
+            <h1>Vaccine</h1>
+            <p class="lead">Designing digital solutions which engage citizens in four core areas — logistics, health outcomes, user-centric impact, and communication.</p>
+            <a class="btn btn-default btn-lg page-scroll mybtn" href="#section-intro" style="transition: 0.5s;">LET'S DIVE IN</a>
         </div>
     </div>
     <!-- .Jumbotron-->
@@ -79,10 +83,10 @@
             <div class="row">
                 <div class="col-md-8">
                     <p class="lead">
-                        Quickly disintermediate empowered methodologies with ubiquitous best practices. Distinctively fabricate exceptional niches with technically sound technologies. Professionally revolutionize seamless synergy with real-time imperatives. Interactively pursue top-line bandwidth whereas visionary e-services.
+                        Amidst the COVID-19 Pandemic and there is rapid progress in the development of the potential vaccine. A global alliance of countries and the pharmaceutical industry are working towards a common goal.
                     </p>
                     <p class="lead">
-                        Distinctively benchmark client-focused opportunities vis-a-vis 24/365 relationships. Progressively revolutionize equity invested synergy whereas emerging web services.
+                        This brings us an optimal time for investing in vaccine distribution strategies and managing this monumental task of distributing the vaccine keeping in mind the global perspective and requirements at the grassroots level as well as keeping our technology stack ready to be deployed as soon as the vaccine is proven safe and effective.
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -99,6 +103,42 @@
     </section>
     <!-- .about-event -->
 
+    <section id="section-problems" class="section-wrapper problems-section gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h1>INDIA SPECIFIC PROBLEMS</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-content">
+                        <img src="./img/Fishbone.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="section-content-links">
+                        <a href="#" class="btn btn-primary">Cold chain management</a>
+                        <a href="#" class="btn btn-primary">Surveillance</a>
+                        <a href="#" class="btn btn-primary">Logistics</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="section-content-links">
+                        <a href="#" class="btn btn-primary">Personnel</a>
+                        <a href="#" class="btn btn-primary">Quality Control</a>
+                        <a href="#" class="btn btn-primary">Vaccine Prioitization</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- .section-problems -->
+
     <section id="section-pricing" class="section-wrapper pricing-section gray-bg">
         <div class="container">
             <div class="row">
@@ -113,7 +153,7 @@
                 <div class="col-sm-4">
                     <div class="pricing-table-default text-center">
                         <div class="pricing-head">
-                            <h3>Early-bird PASS</h3>
+                            <h3>TRIZ</h3>
                             <span class="price"><sup>$</sup>100</span>
                         </div>
                         <div class="pricing-detail">
@@ -123,7 +163,7 @@
                                 <li>Lunch on day 1</li>
                             </ul>
                         </div>
-                        <a href="#" class="btn btn-primary">BUY TICKET</a>
+                        <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
                     <!-- /.pricing-table-wrapper -->
                 </div>
@@ -132,7 +172,7 @@
                 <div class="col-sm-4">
                     <div class="pricing-table-default text-center">
                         <div class="pricing-head">
-                            <h3>ULTIMATE PASS</h3>
+                            <h3>SIR</h3>
                             <span class="price"><sup>$</sup>150</span>
                         </div>
                         <div class="pricing-detail">
@@ -142,7 +182,7 @@
                                 <li>Lunch on day 1</li>
                             </ul>
                         </div>
-                        <a href="#" class="btn btn-primary">BUY TICKET</a>
+                        <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
                     <!-- /.pricing-table-wrapper -->
                 </div>
@@ -151,7 +191,7 @@
                 <div class="col-sm-4">
                     <div class="pricing-table-default text-center">
                         <div class="pricing-head">
-                            <h3>PLATINUM</h3>
+                            <h3>SEIR</h3>
                             <span class="price"><sup>$</sup>250</span>
                         </div>
                         <div class="pricing-detail">
@@ -161,7 +201,7 @@
                                 <li>Lunch on day 1</li>
                             </ul>
                         </div>
-                        <a href="#" class="btn btn-primary">BUY TICKET</a>
+                        <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
                     <!-- /.pricing-table-wrapper -->
                 </div>
@@ -183,7 +223,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                     <figure class="thumbnail">
                         <a href="#"><img src="img/img-team-1.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
@@ -201,7 +241,7 @@
                 </div>
                 <!-- /.col-sm-6 -->
 
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                     <figure class="thumbnail">
                         <a href="#"><img src="img/img-team-2.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
@@ -219,7 +259,7 @@
                 </div>
                 <!-- /.col-sm-6 -->
 
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                     <figure class="thumbnail">
                         <a href="#"><img src="img/img-team-3.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
@@ -237,7 +277,7 @@
                 </div>
                 <!-- /.col-sm-6 -->
 
-                <div class="col-sm-6 col-md-3">
+                <!-- <div class="col-sm-6 col-md-4">
                     <figure class="thumbnail">
                         <a href="#"><img src="img/img-team-4.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
@@ -253,13 +293,13 @@
                             </ul>
                         </figcaption>
                     </figure>
-                </div>
+                </div> -->
                 <!-- /.col-sm-6 -->
 
             </div>
             <!-- .row -->
             <div class="row">
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                     <figure class="thumbnail">
                         <a href="#"><img src="img/img-team-5.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
@@ -277,7 +317,7 @@
                 </div>
                 <!-- /.col-sm-6 -->
 
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                     <figure class="thumbnail">
                         <a href="#"><img src="img/img-team-6.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
@@ -295,7 +335,7 @@
                 </div>
                 <!-- /.col-sm-6 -->
 
-                <div class="col-sm-6 col-md-3">
+                <div class="col-sm-6 col-md-4">
                     <figure class="thumbnail">
                         <a href="#"><img src="img/img-team-7.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
@@ -313,7 +353,7 @@
                 </div>
                 <!-- /.col-sm-6 -->
 
-                <div class="col-sm-6 col-md-3">
+                <!-- <div class="col-sm-6 col-md-4">
                     <figure class="thumbnail">
                         <a href="#"><img src="img/img-team-8.jpg" class="img-responsive" alt="Image"></a>
                         <figcaption class="caption text-center">
@@ -329,7 +369,7 @@
                             </ul>
                         </figcaption>
                     </figure>
-                </div>
+                </div> -->
                 <!-- /.col-sm-6 -->
 
             </div>
